@@ -11,10 +11,6 @@ def prost_in_new(list, list_new=[], i=0):
         list_new.append(list[i])
         return prost_in_new(list,list_new, i+1)
 
-
-
-
-
 list=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 print("Ваш массив:", list, "\n")
 print("\n")
